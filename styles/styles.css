@@ -36,7 +36,7 @@ body {
   margin: 20px 0;
 }
 
-.wow > div {
+.boxes > div {
   border: 5px solid #009874;
   width: 200px;
   height: 200px;
@@ -99,4 +99,20 @@ footer a {
 
 .made-in {
   background-color: #ffc40c;
+}
+
+.banner {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #ffc40c;
+}
+
+#close-banner {
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  font-size: 1rem;
 }

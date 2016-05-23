@@ -11,7 +11,7 @@
     <div class="hero">
       <h1>Stupid Hackathon&trade; France</h1>
     </div>
-    <div class="wow">
+    <div class="wow boxes">
       <h2>En 3 mots...</h2>
       <div>
         Stupid
@@ -36,6 +36,27 @@
         <dd>venez on sera bien !</dd>
       </dl>
     </div>
+    <div class="wow">
+      <h2>Programme</h2>
+      <dl>
+        <dt>10:00 - 11:00</dt>
+        <dd>Arrivée, petit déjeuner, idées</dd>
+        <dt>11:00 - 13:00</dt>
+        <dd>Bidouille</dd>
+        <dt>13:00 - 14:00</dt>
+        <dd>Miam</dd>
+        <dt>14:00 - 20:00</dt>
+        <dd>Bidouille</dd>
+        <dt>20:00 - 21:00</dt>
+        <dd>Miam</dd>
+        <dt>21:00 - 22:00+</dt>
+        <dd>Démos</dd>
+      </dl>
+    </div>
+    <div class="wow">
+      <h2>Inscription</h2>
+      <p>Poser le formulaire dans ce coin</p>
+    </div>
     <footer>
       <div class="events">
         Autres évènements:
@@ -48,5 +69,16 @@
         Sponsorisé par <a href="http://www.sfeir.com/">SF&Xi;IR</a>
       </div>
     </footer>
+    <div class="banner">
+      On n'a pas de cookie, mais on voulait mettre une bannière quand même <button id="close-banner"><i class="fa fa-times-circle" aria-hidden="true"></i></button>
+    </div>
+    <script>
+      {
+        document.getElementById('close-banner').addEventListener('click', function() {
+          window.alert('Vous voulez peut être installer notre appli mobile ? Haha... C\'est une blague, hein. Aller bisous !');
+          document.querySelector('body').removeChild(document.querySelector('.banner'));
+        });
+      }
+    </script>
   </body>
 </html>
